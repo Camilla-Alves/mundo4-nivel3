@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/voiceCommandButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/comando_de_voz"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/readMessageButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/ler_mensagem"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/ajuda"
+        tools:ignore="TouchTargetSizeCheck" />
+</LinearLayout>
